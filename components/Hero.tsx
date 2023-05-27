@@ -42,8 +42,8 @@ const Hero = (props: Props) => {
           <Cursor cursorColor="#008080" />
         </h1>
         <div className="pt-5 space-x-1">
-          <Link href="#about">
-            <button className="heroButton">About</button>
+          <Link target="_blank" href="https://docs.google.com/document/d/1TqLTOKmteZRhEIqjtufOmRA9k_-lB6bE6ZQF7XyfrQg">
+            <button className="heroButton">Resume</button>
           </Link>
           <Link href="#projects">
             <button className="heroButton">Projects</button>

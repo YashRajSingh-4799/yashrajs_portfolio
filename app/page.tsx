@@ -8,8 +8,8 @@ export default function Home() {
     <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <Hero />
       <AboutSection />
-      <Timeline />
-      <Blogs />
+      {/* <Timeline /> */}
+      {/* <Blogs /> */}
       <ProjectsSection />
     </main>
   )
