@@ -5,11 +5,19 @@ import SlideUp from "./SlideUp";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
+  // {
+  //   name: "BTC-wallet CLI",
+  //   description:
+  //     "built a CLI based BTC wallet using Node.js scripting to create import update check balance and display the transactions on the bitcoin address",
+  //   image: "/btcwallet.jpg",
+  //   github: "https://github.com/YashRajSingh-4799/",
+  //   link: "https://github.com/YashRajSingh-4799/",
+  // },
   {
     name: "Focus Tube",
     description:
       "Created a Youtube Clone that only focuses on learning and studying. There are no distractions such as reels and entertainment videos.Especially made for college students.",
-    image: "/project-lyncteck.jpg",
+    image: "/focustube.jpg",
     github: "https://github.com/YashRajSingh-4799/FocusTube",
     link: "https://focustube-yrs.netlify.app/",
   },
@@ -17,7 +25,7 @@ const projects = [
     name: "Novathon (Real World Project)",
     description:
       "Designed and deployed web application of NOVATHON for the branding and spreading awareness of the Hackathon. Enabled about 200 Applications of teams to register in a hackathon from the website and verify the genuineness of applicants with unique Team ID",
-    image: "/platoio.png",
+    image: "/novathon.jpg",
     github: "https://github.com/YashRajSingh-4799/novathon-website",
     link: "https://novathon.netlify.app/",
   },
@@ -25,7 +33,7 @@ const projects = [
     name: "GO Medicos (Freelance)",
     description:
       "Developed a brand website for a medical consulting company, leveraging HTML, CSS, and JavaScript in website to create a modern and user-friendly interface that effectively showcases all the company’s services and expertise. Received positive feedback from the client, who reported increased visibility and engagement as a result of the website. Procured a domain name and handled all technical aspects of site deployment, and hosted with the domain name.",
-    image: "/netflix.jpg",
+    image: "/gomedicos.jpg",
     github: "https://github.com/bhekumuzitshuma/netflix-clone",
     link: "https://gomedicos.in/",
   },
@@ -33,7 +41,7 @@ const projects = [
     name: "Enigma Community Website Clone ",
     description:
       "A student hunt accommodation platform for students all over the world.",
-    image: "/offrez.jpg",
+    image: "/enigma.jpg",
     github: "https://github.com/YashRajSingh-4799/Enigma",
     link: "https://yashrajsingh-4799.github.io/Enigma/index.html",
   },
@@ -41,7 +49,7 @@ const projects = [
     name: "Tic-Tac-Toe",
     description:
       "A Simple Tic-Tac-Toe game using basic Vanilla Javascript without any backend or server",
-    image: "/offrez.jpg",
+    image: "/tic_tac_toe.jpg",
     github: "https://github.com/YashRajSingh-4799/Tic-Tac-Toe-Project",
     link: "https://yashrajsingh-4799.github.io/Tic-Tac-Toe-Project/",
   },
@@ -49,7 +57,7 @@ const projects = [
     name: "Password Strength Checker",
     description:
       "This is my first proeject using Vanilla Javascript which takes the password and shows the strength on the basis of types and numbers of characters used in password",
-    image: "/offrez.jpg",
+    image: "/password.jpg",
     github: "https://github.com/YashRajSingh-4799/Password_Checker",
     link: "https://yashrajsingh-4799.github.io/Password_Checker/",
   },
