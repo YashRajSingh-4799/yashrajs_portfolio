@@ -5,14 +5,14 @@ import SlideUp from "./SlideUp";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
-  // {
-  //   name: "BTC-wallet CLI",
-  //   description:
-  //     "built a CLI based BTC wallet using Node.js scripting to create import update check balance and display the transactions on the bitcoin address",
-  //   image: "/btcwallet.jpg",
-  //   github: "https://github.com/YashRajSingh-4799/",
-  //   link: "https://github.com/YashRajSingh-4799/",
-  // },
+  {
+    name: "BTC-wallet CLI",
+    description:
+      "built a CLI based BTC wallet using Node.js scripting to create import update check balance and display the transactions on the bitcoin address",
+    image: "/btcwallet.jpg",
+    github: "https://github.com/YashRajSingh-4799/",
+    link: "https://github.com/YashRajSingh-4799/",
+  },
   {
     name: "Focus Tube",
     description:
