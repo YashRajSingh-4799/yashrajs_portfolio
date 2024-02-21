@@ -6,9 +6,33 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Double Check",
+    description:
+      "A powerful tool that simplifies the domain search process by checking availability and comparing prices from leading providers. Find the perfect domain for your project hassle-free!",
+    image: "/double check.gif",
+    github: "https://github.com/YashRajSingh-4799/double-check",
+    link: "https://double-check.vercel.app/",
+  },
+  {
+    name: "CRUD Boy",
+    description:
+      " Discover your path to success with our diverse collection of online courses. From programming to photography, our platform offers high-quality content tailored to your learning needs.",
+    image: "/crud.jpg",
+    github: "https://github.com/YashRajSingh-4799/CRUD-BOY",
+    link: "https://crudboy-testing.vercel.app/",
+  },
+  {
+    name: "CourseX",
+    description:
+      " Discover your path to success with our diverse collection of online courses. From programming to photography, our platform offers high-quality content tailored to your learning needs.",
+    image: "/courseX.jpg",
+    github: "https://github.com/YashRajSingh-4799/courseX",
+    link: "https://coursex.vercel.app/",
+  },
+  {
     name: "BTC-wallet CLI",
     description:
-      "built a CLI based BTC wallet using Node.js scripting to create import update check balance and display the transactions on the bitcoin address",
+      "Built a CLI based BTC wallet using Node.js scripting to create import update check balance and display the transactions on the bitcoin address",
     image: "/btcwallet.jpg",
     github: "https://github.com/YashRajSingh-4799/",
     link: "https://github.com/YashRajSingh-4799/",
@@ -71,12 +95,12 @@ const ProjectsSection = () => {
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
-      <div className="flex flex-col space-y-28">
+      <div className="flex flex-col space-y-28 ">
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
-                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12 border-2 p-8 hover:bg-teal-900 border-teal-900 rounded-2xl">
                   <div className=" md:w-1/2">
                     <Link href={project.link}>
                       <Image
@@ -94,7 +118,11 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank" rel="no-follow">
+                      <Link
+                        href={project.github}
+                        target="_blank"
+                        rel="no-follow"
+                      >
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"

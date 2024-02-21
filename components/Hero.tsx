@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
     delaySpeed: 1000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 justify-center items-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col space-y-8 my-20 justify-center items-center text-center overflow-hidden">
       <br />
       <br />
       <br />
@@ -33,7 +33,7 @@ const Hero = (props: Props) => {
         src="/profile.jpg"
         alt=""
       />
-      <div className="z-20 pt-20">
+      <div className="z-20 py-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] text-center">
           Software Developer
         </h2>
@@ -42,7 +42,10 @@ const Hero = (props: Props) => {
           <Cursor cursorColor="#008080" />
         </h1>
         <div className="pt-5 space-x-1">
-          <Link target="_blank" href="https://docs.google.com/document/d/1TqLTOKmteZRhEIqjtufOmRA9k_-lB6bE6ZQF7XyfrQg">
+          <Link
+            target="_blank"
+            href="https://drive.google.com/file/d/1M3eufDz7thHicwEJZicIc3FT87MWkcBJ/view?usp=drive_link"
+          >
             <button className="heroButton">Resume</button>
           </Link>
           <Link href="#projects">

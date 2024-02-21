@@ -27,18 +27,14 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div>
-      {articles.map((article: any) => (
-        <div key={article._id}>
-          <h2>{article.title}</h2>
-          <p>{article.description}</p>
-          <p>
-            <a href={article.url}>Read more</a>
-          </p>
-        </div>
-      ))}
+    <div className="bg-red-700">
+      <h1>hey Blog</h1>
+      
     </div>
   );
 };
 
 export default Blogs;
+
+
+
