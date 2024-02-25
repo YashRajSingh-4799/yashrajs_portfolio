@@ -1,6 +1,25 @@
 import React from "react";
-
-const Timeline = ({ timelineData }) => {
+const timelineData = [
+  // { title: "Event 1", description: "Description for Event 1" },
+  {
+    title: "SDE (Internship) @ Impulsive Web",
+    description: "Dec 2023 - Present",
+  },
+  {
+    title: "Technical Head @ GeeksforGeeks",
+    description: "Aug 2022 - Jul 2023",
+  },
+  {
+    title: "Mentor & Organizer @ Novathon",
+    description: "Nov 2022 - Nov 2022 ",
+  },
+  {
+    title: "Subject Matter Expert @ Chegg",
+    description: "Feb 2022 - Jul 2022 · 6 mos",
+  },
+  // Add more timeline data as needed
+];
+const Timeline = () => {
   return (
     <div className="container">
       <h1 className="my-10 text-center font-light text-4xl tracking-[15px] uppercase mb-8">
